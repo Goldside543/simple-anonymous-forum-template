@@ -1,0 +1,16 @@
+<!-- This goes just below the contents of input.php -->
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Submit Message</h2>
+<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+  Text: <input type="text" name="text">
+  <input type="submit">
+</form>
+
+<a href="display.php">Click here to see your message!</a>
+<link rel="stylesheet" href="mywebsitecustomization.css">
+
+</body>
+</html>
